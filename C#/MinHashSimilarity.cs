@@ -135,7 +135,7 @@ namespace MinHashComparison
 		/// </summary>
 		/// <param name="minHashes">The MinHashes for row values</param>
 		/// <param name="i">The ith band</param>
-		/// <returns></returns>
+		/// <returns>The computed hash for the ith band</returns>
 		private string ComputeBandHash(int[] minHashes, int i)
 		{
 			StringBuilder bandHashSB = new StringBuilder((_rows + 1) * 10);
