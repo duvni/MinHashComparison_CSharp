@@ -52,7 +52,7 @@ namespace MinHashComparison
 		/// <summary>
 		/// Constructor
 		/// </summary>
-		/// <param name="threshold">The threashold in which documents are considered similar</param>
+		/// <param name="threshold">The threshold in which documents are considered similar</param>
 		/// <param name="tokensInWord">number of tokens for a word</param>
 		/// <param name="numHashFunctions">number of min hash functions to compute</param>
 		/// <param name="bands">number of bands for LSH comparison</param>
