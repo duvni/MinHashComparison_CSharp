@@ -35,7 +35,7 @@ namespace MinHashComparison
 		/// Default Constructor
 		/// Works best if threshold is ~90%
 		/// </summary>
-		/// <param name="threshold">The threashold in which documents are considered similar</param>
+		/// <param name="threshold">The threshold in which documents are considered similar</param>
 		public MinHashSimilarity(double threshold) : this (threshold, 5, 400, 20, 20)
 		{
 			// Likelihood of an LSH match between two documents (1-(1-J(A,B)^rows)^bands) | J(A,B) = Jaccard index, rows = 20, bands = 20
