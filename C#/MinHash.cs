@@ -100,7 +100,7 @@ namespace MinHashComparison
 		/// Update the hash tables according to the min values of the sketch.
 		/// </summary>
 		/// <param name="tokens">A list of tokens</param>
-		/// <returns>An array of minimun hash values</returns>
+		/// <returns>An array of minimum hash values</returns>
 		public int[] ComputeSketch(string[] tokens)
 		{
 			// Maintain an array of minimum hash values
