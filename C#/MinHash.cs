@@ -6,7 +6,7 @@ namespace MinHashComparison
 	public class MinHash
 	{
 		/// <summary>
-		/// Numebr of hash functions
+		/// Number of hash functions
 		/// </summary>
 		private readonly int _numHashFunctions;
 
