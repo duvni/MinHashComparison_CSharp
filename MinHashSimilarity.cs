@@ -59,7 +59,7 @@ namespace MinHashComparison
 		/// <param name="rows">number of rows for LSH comparison</param>
 		public MinHashSimilarity(double threshold, int tokensInWord, int numHashFunctions, int bands, int rows)
 		{
-			if (threshold < 0 || threshold > 100)
+			if (threshold < 0 || threshold > 1)
 			{
 				throw new Exception(String.Format("MinHashSimilarity - Illegal threshold: {0}", threshold));
 			}
